@@ -12,6 +12,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { AboutUsParentComponent } from './about-us-parent/about-us-parent.component';
+import { ProductPageComponent } from './product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutUsParentComponent } from './about-us-parent/about-us-parent.compon
     AboutUsComponent,
     HomeComponent,
     ProductComponent,
-    AboutUsParentComponent
+    AboutUsParentComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
